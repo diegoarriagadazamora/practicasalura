@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+<h1>Programa de edad con funciones</h1>
+<script>
+
+  //Creando función para salto de linea
+  function saltoLinea() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  //Creando función imprimir datos
+  function imprimir(frase) {
+    document.write(frase);
+    saltoLinea();
+  }
+
+  //función calculo de IMC
+  function calcularImc(peso, altura) {
+    return (peso / (altura + altura));
+  }
+
+  nombre = prompt("Indique su nombre");
+  pesoInformado = prompt(nombre + " Indique su peso");
+  alturaInformada = prompt(nombre + " Indique su altura");
+
+  imcCalculado = calcularImc(pesoInformado, alturaInformada);
+
+  imprimir(nombre + " su imc calculado es; " + imcCalculado);
+
+</script>
