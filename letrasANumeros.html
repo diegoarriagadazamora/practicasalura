@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<h1>Convirtiendo letras a numeros</h1>
+
+<script>
+
+  //Función salto de linea
+  function saltoLinea() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  //función imprimir datos
+  function imprimir(frase) {
+    document.write(frase);
+    saltoLinea();
+  }
+
+  var victorias = parseInt(prompt("Ingrese victorias"));
+  var empates = parseInt(prompt("ingrese empates"));
+
+  puntosTotales = (victorias * 3) + empates;
+
+  imprimir("El total e puntos del equipo es: " + puntosTotales);
+
+</script>
