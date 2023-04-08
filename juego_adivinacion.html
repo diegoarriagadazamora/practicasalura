@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<h1>Programa de adiviación</h1>
+<script>
+
+  //Creando función para salto de linea
+  function saltoLinea() {
+
+    document.write("<br>");
+    document.write("<br>");
+  }
+  //Creando función imprimir datos
+  function imprimir(frase) {
+
+    document.write(frase);
+    saltoLinea();
+  }
+
+  var numeroPensado = Math.round(Math.random() * 10);
+  var numeroLanzado = parseInt(prompt("Ingrese un número entre 0 y 10"))
+
+  if (numeroPensado == numeroLanzado) {
+    imprimir("Usted acertó " + numeroPensado)
+  }
+  else {
+    imprimir("Usted erró , el número pensado era: " + numeroPensado)
+  }
+</script>
