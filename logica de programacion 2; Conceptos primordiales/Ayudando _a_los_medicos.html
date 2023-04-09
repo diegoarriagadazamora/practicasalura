@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<h1>Claudia y Armando</h1>
+<!--Claudia y Armando están casados y ambos son médicos. Sin embargo, siempre estuvieron interesados en la tecnología y se inscribieron en Alura para aprender lógica de programación.
+
+Recibieron el siguiente código como tarea:
+
+var contador = 1;
+while(contador <= 10) {
+    alert("Contador actual: " + contador);
+    contador = contador + 1;
+}
+Necesitan convertirlo para usar la instrucción for.
+
+¿Cuál de las siguientes opciones realiza esta conversión correctamente?
+
+-->
+<script>
+  //Creando función para salto de linea
+  function saltoLinea() {
+
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  //Creando función imprimir datos
+  function imprimir(frase) {
+
+    document.write(frase);
+    saltoLinea();
+  }
+
+  for (var contador = 1; contador <= 10; contador++) { alert("Contador actual: " + contador);
