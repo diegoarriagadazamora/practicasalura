@@ -1,10 +1,4 @@
-<meta charset="UTF-8">
-
-<h1>PROGRAMA - AÑO MUNDIAL DE LA FIFA </h1>
-
-<script>
-
-  function saltarLinea() {
+function saltarLinea() {
 
     document.write("<br>");
     document.write("<br>");
@@ -31,5 +25,3 @@
   }
 
   imprimir("fin")
-
-</script>

@@ -1,11 +1,5 @@
-<meta charset="UTF-8">
-
-<h1>El programa que no para de preguntar</h1>
-
-<script>
-
-  //Creando función para salto de linea
-  function saltoLinea() {
+//Creando función para salto de linea
+function saltoLinea() {
 
     document.write("<br>");
     document.write("<br>");
@@ -26,7 +20,7 @@
 
   imprimir("FIN");
 */
-  //SOLUCION
+  //SOLUCION con while
 
   var respuesta = ""; // todavía no hay respuesta
 
@@ -38,5 +32,3 @@
   }
 
   imprimir("FIN");
-
-</script>

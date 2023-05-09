@@ -1,10 +1,5 @@
-<meta charset="UTF-8">
-
-<h1>Tablas de multiplicar</h1>
-
-<script>
-  //Creando función para salto de linea
-  function saltoLinea() {
+//Creando función para salto de linea
+function saltoLinea() {
 
     document.write("<br>");
     document.write("<br>");
@@ -29,5 +24,3 @@
   for (let multiplicador = 1; multiplicador <= 10; multiplicador++) {
     imprimir(5 * multiplicador);
   }
-
-</script>

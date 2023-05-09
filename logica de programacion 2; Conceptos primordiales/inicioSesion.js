@@ -1,8 +1,5 @@
-<meta charset="UTF-8">
-<script>
-
-  //Creando función para salto de linea
-  function saltoLinea() {
+//Creando función para salto de linea
+function saltoLinea() {
 
     document.write("<br>");
     document.write("<br>");
@@ -39,4 +36,3 @@
     // vaya al próximo intento
     intentoActual = intentoActual + 1
   }
-</script>

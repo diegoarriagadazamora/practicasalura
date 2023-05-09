@@ -1,11 +1,5 @@
-<meta charset="UTF-8">
-
-<h1>calcular numeros pares del 1 al 100 con while</h1>
-
-<script>
-
-  //Creando función para salto de linea
-  function saltoLinea() {
+ //Creando función para salto de linea
+ function saltoLinea() {
 
     document.write("<br>");
     document.write("<br>");
@@ -42,5 +36,3 @@
     imprimir("usted erró, el número pensado era " + numeroPensado);
   }
   imprimir("fin");
-
-</script>

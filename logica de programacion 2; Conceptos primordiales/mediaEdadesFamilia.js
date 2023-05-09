@@ -1,11 +1,5 @@
-<meta charset="UTF-8">
-
-<h1>calcular edad media de la familia</h1>
-
-<script>
-
-  //Creando función para salto de linea
-  function saltoLinea() {
+//Creando función para salto de linea
+function saltoLinea() {
 
     document.write("<br>");
     document.write("<br>");
@@ -30,5 +24,3 @@
   mediaEdades = totalEdades / numeroMiembros;
   imprimir("La media de las edades de la familia es: " + mediaEdades);
   imprimir("Fin");
-
-</script>
