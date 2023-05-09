@@ -1,7 +1,4 @@
-<meta charset="UTF-8">
-
-<script>
-  function saltarLinea() {
+function saltarLinea() {
     document.write("<br>");
   }
 
@@ -22,5 +19,3 @@
   if (edad < 18) {
     imprimir("No puedes conducir");
   }
-
-</script>

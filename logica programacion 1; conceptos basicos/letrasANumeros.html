@@ -1,36 +1,14 @@
-<meta charset="UTF-8">
-
-<h1>Convirtiendo letras a numeros</h1>
-
-<script>
-
-  //Función salto de linea
-  function saltoLinea() {
-    document.write("<br>");
-    document.write("<br>");
-  }
-
-  //función imprimir datos
-  function imprimir(frase) {
-    document.write(frase);
-    saltoLinea();
-  }
-
-  var victorias = parseInt(prompt("Ingrese victorias"));
-  var empates = parseInt(prompt("ingrese empates"));
-
-  puntosTotales = (victorias * 3) + empates;
-
-  imprimir("El total e puntos del equipo es: " + puntosTotales);
-
-  if (puntosTotales > 30) {
-    imprimir("El equipo está mejor que el año pasado");
-  }
-  if (puntosTotales < 30) {
-    imprimir("el equipo está peor que el año pasado");
-  }
-  if (puntosTotales == 30) {
-    imprimir("El equipo está igual que el año pasado");
-  }
-
-</script>
+<!--Se separa codigo js de html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>letras a numeros</title>
+  <script src="letrasANumeros.js"></script>
+</head>
+<body>
+  <h1>Convirtiendo letras a numeros</h1>
+</body>
+</html>

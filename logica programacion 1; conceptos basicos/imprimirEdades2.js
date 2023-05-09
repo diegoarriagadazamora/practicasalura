@@ -1,7 +1,4 @@
-<meta charset="UTF-8">
-<h1>PROGRAMA</h1>
-<script>
-  function saltarLinea() {
+function saltarLinea() {
     document.write("<br>");
     document.write("<br>");
     document.write("<br>");
@@ -20,4 +17,3 @@
   imprimir("Pedro tiene: " + (anho - 1995) + " años");
   anho = 2030
   imprimir("Carlos tiene: " + (anho - 2005) + " años");
-</script>

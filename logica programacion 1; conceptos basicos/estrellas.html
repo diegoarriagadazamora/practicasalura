@@ -1,29 +1,14 @@
-<meta charset="UTF-8">
-
-<h1>imprimir estrellas con ciclo for</h1>
-
-<script>
-
-  //Creando función para salto de linea
-  function saltoLinea() {
-
-    document.write("<br>");
-    document.write("<br>");
-  }
-
-  //Creando función imprimir datos
-  function imprimir(frase) {
-
-    document.write(frase);
-    saltoLinea();
-  }
-
-  //Creando linea de 10 asteriscos con doble for
-  for (var lineas = 1; lineas <= 10; lineas++) {
-    for (var columnas = 1; columnas <= 10; columnas++) {
-      document.write("*");
-    }
-    saltoLinea();
-  }
-  imprimir("FIN");
-</script>
+<!--Se separa codigo js de html-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estrellas con for</title>
+  <script src="estrellas.js"></script>
+</head>
+<body>
+  <h1>imprimir estrellas con ciclo for</h1>
+</body>
+</html>

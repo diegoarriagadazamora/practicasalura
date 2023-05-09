@@ -1,7 +1,4 @@
-<meta charset="UTF-8">
-
-<script>
-  function saltarLinea() {
+function saltarLinea() {
     document.write("<br>");
   }
 
@@ -23,12 +20,9 @@
     imprimir("No puedes conducir");
   }
 
-</script>
+/*otra solución que me ha gustado expuesta por el profesor
 
-<!--otra solución que me ha gustado expuesta por el profesor
-<meta charset="UTF-8">
 
-<script>
     function saltarLinea() {
         document.write("<br>");
     }
@@ -48,6 +42,4 @@
     else {
         imprimir("No puedes conducir");
     }
-
-</script>
--->
+    */
